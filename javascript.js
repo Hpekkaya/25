@@ -68,6 +68,26 @@
 // }
 // console.log(text)
  
+//do-while
+
+// let i = 0 ;
+// do {
+//     console.log(i)
+//     i++;
+// }
+// while(i<10)
+
+// break continue ifadeleri
+
+// for(let i=0; i<10 ; i++) {
+//     if(i === 3){
+//         break;
+//         // continue;
+//     }
+//     console.log(i)
+// }
+
+
 
 
 
