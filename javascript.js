@@ -276,6 +276,29 @@
 // console.log(person.showName())
 
 
+//constructor
+// const person1 = {
+//     name: "ahmet" , age:24 
+// }
+// const person2 = {
+//     name: "mehmet" , age:24 
+// }
+
+// function Person(first,last,age,eye){
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.eyeColor = eye ;
+//     this.showInfos = function () {
+//         console.log("Funct :", this.firstName," ", this.lastName," ", this.age)
+//     }
+// }
+// const person3 = new Person("ahmet","bay",23,"brown")
+// person3.showInfos()
+// console.log(person3.eyeColor)
+// console.log("Array",person3)
+// console.log("showinfos()", person3.showInfos)
+
 
 
 
