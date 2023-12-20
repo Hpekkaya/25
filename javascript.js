@@ -77,7 +77,7 @@
 // }
 // while(i<10)
 
-// break continue ifadeleri
+// break continue statements
 
 // for(let i=0; i<10 ; i++) {
 //     if(i === 3){
@@ -86,6 +86,72 @@
 //     }
 //     console.log(i)
 // }
+
+//js errors
+
+// console.log(mesajımız)
+// try {
+//     console.log("mesajımız")
+// }
+// catch(err){
+//     console.log(err.message)
+// }
+// finally{
+//     console.log("fonksiyon bitti çalışma tamamlandı")
+// }
+
+// let x = ""
+// try {
+//     if(x.trim() == "") throw "empty value";
+// }
+// catch(err){
+//     console.log(err)
+// }
+// finally {
+//     console.log("work is done")
+// }
+ 
+// let x = "12"
+// try {
+//     if(isNaN(x)) throw "value is not a number";
+// }
+// catch(err){
+//     console.log(err)
+// }
+// finally {
+//     console.log("work is done")
+// }
+ 
+// let x = "1"
+// try {
+//     x = Number(x);
+//     if(x<5) throw "çok küçük"
+//     if(x>10) throw "çok büyük"
+// }
+// catch(err){
+//     console.log(err)
+// }
+// finally {
+//     console.log("work is done")
+// }
+ 
+//for in (returns key ve index values)
+// const person = {
+//     fname:"Jhon", lname:"Doe" , age:25
+// }
+// let text = "";
+// // person["fname"]="Jhon" person.fname="Jhon"
+// for (let a in person){
+//     console.log("Value field name in For loop :",a)
+//     console.log("Value person[a]",person[a])
+//     console.log(`${a} nın değeri ${person[a]}`)
+//     console.log("__________________")
+//     text += person[a]
+// }
+// console.log(text)
+
+
+
 
 
 
