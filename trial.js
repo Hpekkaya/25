@@ -1,13 +1,15 @@
-let x=11;
-try {
-  x = Number(x)
-  if(x < 5) throw "The number is too small, must bigger then"
-  if(x >10)  throw "The number is too big, must smaller then"
-  console.log(x)
-} 
-catch(error){
-  console.log(error)
+// 
+const person = {
+  name : "Mustafa",
+  sname : "Onal",
+  descrption :function(){
+    return this;
+  },
+  showName :function(){
+    let x = this.name + " " + this.sname
+    return  x    
+    
+  }
 }
-finally {
-  console.log("Try catch ended")
-}
+console.log(person.descrption())
+console.log(person.showName())
