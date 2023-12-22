@@ -299,6 +299,37 @@
 // console.log("Array",person3)
 // console.log("showinfos()", person3.showInfos)
 
+//arrow ( => ) func - modified function
+
+// let hello1;
+// hello1 = function () {
+//     return "Hello world"
+// }
+// console.log(hello1())
+
+// let hello;
+// hello = () => "Hello world"
+
+// console.log(hello())
+
+// let hello;
+// hello = (value) => "Hello world" + value
+
+// console.log(hello(" and turkey"))
+
+// const person = {
+//     firstName : "ahmet",
+//     lastName: "can",
+//     fullName: function() {
+//         return this.firstName
+//     },
+//     fullName2: () => this.firstName
+// }
+// console.log(person.fullName())
+// console.log(person.fullName2())
+// in => function this show global value
+// in normal function shows its own object value
+
 
 
 
